@@ -73,7 +73,9 @@ expo start
 
 This will open a new window in your browser with the Expo developer console.
 
-5. Preview the app: You can preview your app in the Expo client app on your device by scanning the QR code displayed in the browser window with the Expo app. You can also use an emulator to preview the app.
+5. Preview the app: You can preview your app in the Expo client app on your device by scanning the QR code displayed in the browser window with the Expo app (android) or regular camera app (iOS). You can also use an emulator to preview the app.
+
+![](demo.gif)
 
 Now you have your development environment set up and you should see your application in the Expo client app.
  
