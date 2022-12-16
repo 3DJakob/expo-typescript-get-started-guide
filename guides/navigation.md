@@ -26,7 +26,7 @@ npx expo install react-native-screens react-native-safe-area-context
 
 ## Implementation
 
-1. Adding a `<NavigationContainer>`
+**1. Adding a `<NavigationContainer>`**
 
 Start by wrapping your app in a `<NavigationContainer>`. This is neccessary to use any of the navigation components and functions inside tha app later. Your App.tsx should look something like this:
 
@@ -44,7 +44,7 @@ export default function App (): ReactElement {
 }
 ```
 
-2. Creating your first stack
+**2. Creating your first stack**
 
 Stacks are used to arrange multiple screens in a stack where the user can push new views or pop the current one. This is used whenever you can swipe from the left of the screen to go back on iOS or with the back button on android.
 
@@ -95,7 +95,7 @@ TIP: You can hide the navigation bar to render your own using the following code
 </Stack.Navigator>
 ```
 
-3. Adding multiple routes to a stack
+**3. Adding multiple routes to a stack**
 
 You can add more routes to a stack with the following code:
 
@@ -110,7 +110,7 @@ You can add more routes to a stack with the following code:
 
 With the `initialRouteName` prop we can define what route should be displayed once the stack first loads.
 
-4. Navigating
+**4. Navigating**
 
 Navigation between screens can be done using the `useNavigate` hook. In your `Home.tsx` file we can add the following code.
 
@@ -159,7 +159,7 @@ navigation.goBack()
 ```
 
 
-5. Using a tab bar navigator
+**5. Using a tab bar navigator**
 
 Optionally you could add a tab navigator. That way the user can navigate between screens uning a tab bar in the bottom of the application.
 
